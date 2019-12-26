@@ -161,7 +161,7 @@ message Method {
 //
 // Example of a mixin configuration:
 //
-//     apis:
+//     api:
 //     - name: google.storage.v2.Storage
 //       mixins:
 //       - name: google.acl.v1.AccessControl
@@ -185,7 +185,7 @@ message Method {
 // If the `root` field in the mixin is specified, it should be a
 // relative path under which inherited HTTP paths are placed. Example:
 //
-//     apis:
+//     api:
 //     - name: google.storage.v2.Storage
 //       mixins:
 //       - name: google.acl.v1.AccessControl
